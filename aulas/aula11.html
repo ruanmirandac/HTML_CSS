@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens Dinâmicas, Áudio e Vídeo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!--Menu fixo das aulas-->
+        <ul id=menu>
+            <p id="menu_aulas">Menu de Aulas</p>
+            <li><a href="home.html">Home</a>
+            <li><a href="aula05.html">Aula 5</a>
+            <li><a href="aula06.html">Aula 6</a>
+            <li><a href="aula07.html">Aula 7</a>
+            <li><a href="aula08.html">Aula 8</a>
+            <li><a href="aula09.html">Aula 9</a>
+            <li><a href="aula10.html">Aula 10</a>
+            <li><a href="aula11.html">Aula 11</a>
+            <li><a href="aula12.html">Aula 12</a>
+        </ul>
+        <!--Menu fixo das aulas-->
+
+    <h1>Imagens Flexíveis</h1>
+    <h2>Usaremos as Tags PICTURE e SOURCE para adaptar o tamanho das imagens <br>
+    em cada tamanho de tela</h2>
+    <h3>Usamos a Tag IMG dentro da tag PICTURE</h3>
+    <p>
+        A Tag SOURCE tem 3 parâmetros:
+
+        <ul>
+            <li><em>type: </em>Indica o media type</li>
+            <li><em>srcset: </em>Configura o nome da imagem que será carregada quando atingir o tamanho indicado</li>
+            <li><em>media: </em>indica o tamanho máximo a ser considerado para carregar a imagem indicada no atributo <em>srcset</em></li>
+        </ul>
+    </p>
+    <p>
+        <pre>
+            <strong>
+                Existe uma ordem entre os SOURCE: <br>
+                Os item mais a cima sejam os menores tamanhos para <em>max-width</em>
+                e que os seguntes sejam maiores, de forma crescente. O último item dentro
+                de PICTURE deve ser a imagem padrão.
+            </strong>
+        </pre>
+    </p>
+    <picture>
+        <source media="(max-width:750px)" srcset="download/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="download/foto-m.png" type="image/png">
+        <img src="download/foto-g.png" alt="A imagem flexivél funciona">
+    </picture>
+   
+    <h2>Áudio</h2>
+    <H3>Usamo a Tag AUDIO para para tocar qualquer áudio no site <br>
+    Temos os seguintes parâmetros para a AUDIO:
+    <ol>
+        <li><ins>Preload:</ins> indica se o áudio será pre-carregado ou não. Tem três atributos:</li>
+        <ul>
+            <li>metadata - vai carregar apenas informaçções sobre os arquivos</li>
+            <li>none - não vai acrregar nada até que dê play ou um script faça rodar</li>
+            <li>auto(padrão) - vai carregar o arquivo de audio inteiro, mesmo que o usuario nunca dê play</li>
+        </ul>
+        <li><ins>Controls</ins> - apresenta  player na tela. Caso não colocado, o usuario não consegue interagir</li>
+        <li><ins>Autopay</ins> - vai iniciar a reprodução do audio assim que a pagina foir carregada</li>
+        <li><ins>Loop</ins> - vai fazer com que o audio seja repetido eternamente assim que terminar a sua reprodução</li>
+    </ol></H3>
+    <h4>Vamos tocar um áudio aqui:</h4>
+    <audio id=player src="download/Audio 2.mp3" type="audio/mpeg" preload="none", controls loop></audio>
+
+    <h2>Video</h2>
+    <h3>Usamos a Tag VIDEO para incrementar vídeos no nosso site <br>
+    Principais parâmetros:
+    <ul>
+        <li><ins>width</ins> - indica a largura do vídeo que vai aparecer na tela</li>
+        <li><ins>poster</ins> - configura uma imagem que vai aparecer como uma capa, enquanto não da play</li>
+        <li><ins>controls</ins> - vai configurara se os controles do vídeo vão aparecer</li>
+        <li><ins>autoplay</ins> - diz para o navegador se vai tocar automaticamente assim que a pagina carregar</li>
+    </ul>
+    </h3>
+    <h4>Vamos tocar um vídeo aqui:</h4>
+    <video src="download/1-1-1 O Curso.mp4" width="600" poster="download/thumb.png" controls></video>
+    <h3 class=info>INFORMAÇÕES IMPORTANTES SOBRE VÍDEOS</h3>
+    <p class=info>
+        Sobre hospedagem de vídeos: <br>
+        Podemos usar o YouTube ou Vimeo
+        <ol>
+            <li>YouTube - Todos vídos são públicos</li>
+            <li>Vimeo - Algoritmos pouco eficientes</li>
+        </ol>
+    </p>
+    <h3>Incorporando Vídeos Externos <br>
+        YouTube - Compartçhar / Incorporar. <br>
+        Vamos incorporar um vídeo do YouTube aqui: <br></h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/k5mX3NkA7jM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Mais info. sobre vídeos:
+            <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/11%20-%20Imagens%20din%C3%A2micas%2C%20%C3%A1udios%20e%20v%C3%ADdeos.pdf" rel="author" target="_blank">GitHub - Aula 11</a>
+        </p>
+</body>
+</html>
