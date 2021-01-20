@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.svg" type="icon/image/x-icon">
+    <title>Formatação de texto</title>
+</head>
+<body>
+    <h1>Negrito e Italico</h1>
+    <p>
+        Esse é um teste para <strong>Negrito</strong>
+        <br>
+        Esse é um teste para <em>Italico</em>
+    </p>
+    <h1>Marca-texto</h1>
+    <p>
+        Esse é um teste usando <mark>Marca-Texto</mark>
+    </p>
+    <h1>Texto grande e Pequeno</h1>
+    <p>
+        Esse texto usando a tag BIG que está <big>morrendo</big>
+        <br>
+        Esse texto usando a tag SMAll que ainda <small>vive!</small>
+    </p>
+    <h1>Texto Deletado</h1>
+    <p>
+        <del>Esse texto foi deletado pela tag DEL</del> 
+    </p>
+    <h1>Texto Inserido / Sublinhado</h1>
+    <p>
+        <ins>Esse texto foi inserido, usando a tag INS</ins>
+    </p>
+    <h1>Texto sobrescrito e subescrito</h1>
+    <p>
+        Aqui usamos x<sup>2</sup> SUP
+        <br>
+        Aqui usamos H<sub>2</sub>O o SUB 
+    </p>
+    <h1>Trechos de Código</h1>
+    <h2>Exemplo de código em Python</h2>
+    <!-- PRE : MANTEM O TEXTO PRE FORMATADO-->
+    <p> 
+        <pre>   
+            <code>
+                num = int(input(Digite um número:))
+                if num % 2 = 0:
+                    print(f'O número {num} é par!')
+                else:
+                    print(f'O número {num} é ímpar!')
+                print('FIM DO PROGRAMA')
+            </code>
+        </pre>
+    </p>
+    <h1>Citações</h1>
+    <h2>Citação no meio do parágrafo</h2>
+    <p>
+        <q>Essa citação foi feita usando a tag Q</q>
+    </p>
+    <h2>Citação de Bloco</h2>
+    <h3>Essa citação foi feita usando a tag blockquote</h3>
+    <h4>Podemos usar o patâmetro CITE dentro da tag para colocar um link </h4>
+    <p>
+        <pre>
+            <blockquote cite="https://br.lipsum.com/">
+                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+                e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma
+                bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.
+            </blockquote> 
+        </pre>
+    </p>
+    <h1>Abreviações</h1>
+    <h2>Abreviações usando a tag ABBR </h2>
+    <P>
+        Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> para criar sites!
+    </P>
+    <h1>Texto Invertido</h1>
+    <h2>Usando a tag BDO para inverter <br>
+        Usar parâmetro DIR para indicar direção <br>
+        <mark>
+            rtl - da direito para esquerda
+            <br>
+            ltr - da esquerda para a direita
+        </mark>
+    </h2>
+    <p>
+        <bdo dir="rtl">Esse texto está invertido no sentido RIGHT-TO-LEFT!
+        </bdo>
+    </p>
+</body>
+</html>
