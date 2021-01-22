@@ -4,12 +4,13 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1{
-    color: goldenrod;
+    color: rgb(252, 187, 22);
     text-shadow: 3px 3px 1px rgb(12, 12, 12);
 }
 
 h2{
-    color: rgb(245, 200, 88);
+    color: rgb(96, 255, 144);
+    text-align: center;
 }
 
 h3{
@@ -18,7 +19,7 @@ h3{
 }
 
 a{
-    color: rgb(81, 255, 159);
+    color: rgb(151, 213, 255);
 }
 
 .lista{

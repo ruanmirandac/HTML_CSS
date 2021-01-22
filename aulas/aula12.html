@@ -6,6 +6,13 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Aula 12</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        h5{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: indianred;
+            color: ivory;
+        }
+    </style>
 </head>
 <body>
         <!--Menu fixo das aulas-->
@@ -23,5 +30,26 @@
         </ul>
         <!--Menu fixo das aulas-->
         <h1>Trabalhando com Estilos - Introdução às CSS</h1>
+
+        <h2>CSS inline style</h2>
+
+        <h3>Técnica mais básica de aplicar estilos, usamos dentro de parâmetros de HTML5. <br>
+        Usamos o parâmetro STYLE para aplicar um estilo.
+        </h3>
+        <p style="font-family: Arial, Helvetica, sans-serif; color: hotpink;">Esse é um teste usando CSS Inline Style</p>
+        <h4 style="font-family: monospace; font-size: x-large; color: indianred;">Esse título também contém estilo inline</h4>
+        <h4>Esse título não contém nenhum estilo; <br>
+        Usar <ins>inline</ins> funciona apenas para a Tag onde foi adicionado!</h4>
+        <!---------------------------------------------------------------------->
+        <h2>CSS internal style</h2>
+
+        <h3>Adiciona estilos de forma mais dinâmica e prática, podemos adicionar uma Tag STYLE dentro do HEAD do nosso documento local.</h3>
+        <h5>Esse título h5 foi alterado pelo inernal style! <br>
+        <ins>Vericar no HEAD caso tenha dúsivas!</ins></h5>
+
+        <p style="color: rgb(255, 149, 149);">As configurações pontuais (inline style) vão prevalecer sobre as config. gerais (internal style).</p>
+        <!---------------------------------------------------------------------->
+        <h2>CSS external style</h2>
+        
 </body>
 </html>
