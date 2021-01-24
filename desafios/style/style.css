@@ -1,0 +1,21 @@
+body{
+    background-color: #141C2B;
+}
+h1{
+    color: #a2c2fc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+h2{
+    color: #ecf3ff;
+    font-family: monospace;
+    font-size: 30px;
+}
+ul{
+    color: rgb(238, 238, 238);
+    font-family: monospace;
+    font-size: 20px;
+}
+.lista{
+    column-count: 2;
+}
