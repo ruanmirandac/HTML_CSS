@@ -1,0 +1,30 @@
+body{
+    background-color: #121418;
+}
+h1{
+    color: #ebf2ff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+h2{
+    color: #ecf3ff;
+    font-family: monospace;
+    font-size: 30px;
+}
+ul{
+    color: rgb(238, 238, 238);
+    font-family: monospace;
+    font-size: 20px;
+}
+.lista{
+    column-count: 2;
+}
+.bio{
+    max-width: 300px;
+    text-align: justify;
+    color: rgb(218, 218, 218);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.link_redes{
+    color: rgb(73, 255, 134);
+}

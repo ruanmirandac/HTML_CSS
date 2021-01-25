@@ -1,0 +1,33 @@
+body{
+    background-color: #dadada;
+}
+h1{
+    color: #e7e7e7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    
+}
+h2{
+    color: #272727;
+    font-family: monospace;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(31, 31, 31, 0.568);
+}
+ul{
+    color: rgb(13, 12, 17);
+    font-family: monospace;
+    font-size: 20px;
+}
+.lista{
+    column-count: 2;
+}
+.bio{
+    max-width: 300px;
+    text-align: justify;
+    color: rgb(14, 14, 14);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.link_redes{
+    color: rgb(42, 38, 43);
+}
