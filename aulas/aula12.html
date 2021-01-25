@@ -50,6 +50,21 @@
         <p style="color: rgb(255, 149, 149);">As configurações pontuais (inline style) vão prevalecer sobre as config. gerais (internal style).</p>
         <!---------------------------------------------------------------------->
         <h2>CSS external style</h2>
-        
+        <h3>Usar estilos externos mantém o arquivo mais organizado e reaproveitamos os estilos em outras paginas de nosso site de forma mais eficientes.<br> Usamos a Tag LINK especialmente configurada para trabalhar com arquivos externos de estilo. Essa Tag deve ser colocada dentro da área HEAD do HTML.</h3>
+        <h4>Dentro da área do HEAD usamos link:css para linkar ao arquivo externo da CSS. <br>
+        Ao criar o link:css, em href podemos criar o arquivo com a ajuda do VS Code usando Ctrl+clique. <br>
+        @charset "UTF-8"; - Regra charset caso haja problemas com acentuação. <br>
+        /* */- comentário em CSS</h4>
+        <p style="font-size: 20px;">Recomendações:
+            <ul>
+                <li>CSS Externo - use sempre que puder</li>
+                <li>CSS Interno - use para pequenas configurações</li>
+                <li>CSS inline - procure evitar</li>
+            </ul>
+            <pre style="color: aqua;">
+                É possível misturar as 3 técnicas, criando um CSS externo para as configurações globais,
+                CSS interno para configurações locais de um documento e CSS inline para pequenas configurações pontuais. 
+            </pre>
+        </p>
 </body>
 </html>
