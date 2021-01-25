@@ -1,18 +1,21 @@
 body{
-    background-color: #121418;
+    background-color: #dadada;
 }
 h1{
-    color: #ebf2ff;
+    color: #e7e7e7;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-color: rgb(24, 24, 24);
+    
 }
 h2{
-    color: #ecf3ff;
+    color: #272727;
     font-family: monospace;
     font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(31, 31, 31, 0.568);
 }
 ul{
-    color: rgb(238, 238, 238);
+    color: rgb(13, 12, 17);
     font-family: monospace;
     font-size: 20px;
 }
@@ -22,9 +25,9 @@ ul{
 .bio{
     max-width: 300px;
     text-align: justify;
-    color: rgb(218, 218, 218);
+    color: rgb(14, 14, 14);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .link_redes{
-    color: rgb(73, 255, 134);
+    color: rgb(42, 38, 43);
 }
