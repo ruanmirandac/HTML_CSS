@@ -28,3 +28,8 @@ ul{
 .link_redes{
     color: rgb(73, 255, 134);
 }
+p{
+    color: gold;
+    font-family: monospace;
+    font-size: 18px;
+}
