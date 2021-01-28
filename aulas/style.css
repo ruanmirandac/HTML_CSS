@@ -44,3 +44,7 @@ a{
 .info{
     color: rgb(98, 224, 255);
 }
+p, ul{
+    font-family: monospace;
+    font-size: 16px;
+}
