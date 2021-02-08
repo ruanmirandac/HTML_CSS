@@ -9,97 +9,94 @@
 
 </head>
 <body>
-    <!--Menu fixo das aulas-->
-    <ul id=menu>
-        <p id="menu_aulas">Menu de Aulas</p>
-        <li><a href="home.html">Home</a>
-        <li><a href="aula05.html">Aula 5</a>
-        <li><a href="aula06.html">Aula 6</a>
-        <li><a href="aula07.html">Aula 7</a>
-        <li><a href="aula08.html">Aula 8</a>
-        <li><a href="aula09.html">Aula 9</a>
-        <li><a href="aula10.html">Aula 10</a>
-        <li><a href="aula11.html">Aula 11</a>
-    </ul>
-    <!--Menu fixo das aulas-->
-    <h1>Listas</h1>
-    <h2>Listas Ordenadas</h2>
-    <h3>Parametro TYPE dentro de OL configura o tipo de marcador atual <br>
-        Parametro START indica inicio da contagem
-        <pre>
-            1 - numerada 
-            A - alfabetica maiuscula
-            a - alfabetica minuscula
-            I - romano maiusculo
-            i - romano minusculo
-        </pre>
-    </h3>
-    <p>
-        A tag OL delimita a Lista <br>
-        A tag LI (list item) para identificar cada item da lista!
-        <ol type="I">
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-        </ol>
-        <ol type="A" start="5">
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-        </ol>
-    </p>
-
-    <h2>Listas Não Ordenadas</h2>
-    <h3>Usamos a tag UL para criarar listas não ordenadas / listas com marcadores
-        Parâmetro TYPE dentro de UL configura o tipo de marcador atual <br>
-        <pre>
-            disc - padrão 
-            circle - bolinha vazada
-            square - quadrado preto 
-        </pre>
-    </h3>
-    <p>
-        A tag UL delimita a Lista <br>
-        A tag LI (list item) para identificar cada item da lista!
-
-        <ul type="square">
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
+    <div id="interface">
+        <!--Menu fixo das aulas-->
+        <ul id=menu>
+            <p id="menu_aulas">Menu de Aulas</p>
+            <li><a href="home.html">Home</a>
+            <li><a href="aula05.html">Aula 5</a>
+            <li><a href="aula06.html">Aula 6</a>
+            <li><a href="aula07.html">Aula 7</a>
+            <li><a href="aula08.html">Aula 8</a>
+            <li><a href="aula09.html">Aula 9</a>
+            <li><a href="aula10.html">Aula 10</a>
+            <li><a href="aula11.html">Aula 11</a>
         </ul>
-    </p>
-
-    <h2>Misturando as Listas</h2>
-    <p>
-        <ol type="I">
-            <li>Item 1</li>
-            <li>Item 2</li>
+        <!--Menu fixo das aulas-->
+        <h1>Listas</h1>
+        <h2>Listas Ordenadas</h2>
+        <h3>Parametro TYPE dentro de OL configura o tipo de marcador atual <br>
+            Parametro START indica inicio da contagem
+            <pre>
+                1 - numerada
+                A - alfabetica maiuscula
+                a - alfabetica minuscula
+                I - romano maiusculo
+                i - romano minusculo
+            </pre>
+        </h3>
+        <p>
+            A tag OL delimita a Lista <br>
+            A tag LI (list item) para identificar cada item da lista!
+            <ol type="I">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+            </ol>
+            <ol type="A" start="5">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+            </ol>
+        </p>
+        <h2>Listas Não Ordenadas</h2>
+        <h3>Usamos a tag UL para criarar listas não ordenadas / listas com marcadores
+            Parâmetro TYPE dentro de UL configura o tipo de marcador atual <br>
+            <pre>
+                disc - padrão
+                circle - bolinha vazada
+                square - quadrado preto
+            </pre>
+        </h3>
+        <p>
+            A tag UL delimita a Lista <br>
+            A tag LI (list item) para identificar cada item da lista!
             <ul type="square">
-                <li>Item 2.1</li>
-                <li>Item 2.2</li>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
             </ul>
-            <li>Item 3</li>
-        </ol>
-    </p>
-    <h2>Lista de Definições</h2>
-    <h3>Usamos a tag DL para definir a lista <br>
-    Usamos a tag DT para definir o termo <br>
-    Usamos a tag DD para definir a descrição</h3>
-    <p>
-        <dl>
-            <dt>HTML</dt>
-            <dd>Linguagem de marcação utilizada para criar o conteúdo de sites.</dd>
-
-            <dl>CSS</dl>
-            <dd>Linguagem de marcação para a especificação de estilos em sites.</dd>
-
-            <dl>JavaScript</dl>
-            <dd>Linguagem de programação para criar interatividades em sites.</dd>
-        </dl>
-    </p>
+        </p>
+        <h2>Misturando as Listas</h2>
+        <p>
+            <ol type="I">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <ul type="square">
+                    <li>Item 2.1</li>
+                    <li>Item 2.2</li>
+                </ul>
+                <li>Item 3</li>
+            </ol>
+        </p>
+        <h2>Lista de Definições</h2>
+        <h3>Usamos a tag DL para definir a lista <br>
+        Usamos a tag DT para definir o termo <br>
+        Usamos a tag DD para definir a descrição</h3>
+        <p>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Linguagem de marcação utilizada para criar o conteúdo de sites.</dd>
+                <dl>CSS</dl>
+                <dd>Linguagem de marcação para a especificação de estilos em sites.</dd>
+                <dl>JavaScript</dl>
+                <dd>Linguagem de programação para criar interatividades em sites.</dd>
+            </dl>
+        </p>
+    </div>
 </body>
 </html>

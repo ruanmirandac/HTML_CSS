@@ -3,20 +3,28 @@ body{
     color: rgb(228, 228, 228);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#interface{
+    width: 1600px;
+    padding: 20px; /* cima direita baixo esquerda */
+    margin: -20px auto 0px auto; /* cima direita baixo esquerda */
+    box-shadow: 0px 0px 10px rgb(10, 10, 10); /* direita baixo espalhamento */
+    background-color: rgb(39, 39, 39);
+    border-radius: 5px;
+} 
 h1{
     color: rgb(252, 187, 22);
     text-shadow: 3px 3px 1px rgb(12, 12, 12);
+    text-align: center;
 }
-
 
 h2{
     color: rgb(96, 255, 144);
-    text-align: center;
 }
 
 h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
+    color: crimson;
 
 }
 
@@ -46,9 +54,10 @@ a{
 .info{
     color: rgb(98, 224, 255);
 }
-p, ul{
-    font-family: monospace;
-    font-size: 16px;
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 0px 0px 0px 5px;
 }
 #grad{
     background-image: radial-gradient(rgb(32, 32, 32), rgb(44, 44, 44))

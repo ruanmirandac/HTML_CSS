@@ -8,93 +8,98 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <!--Menu fixo das aulas-->
-        <ul id=menu>
-            <p id="menu_aulas">Menu de Aulas</p>
-            <li><a href="home.html">Home</a>
-            <li><a href="aula05.html">Aula 5</a>
-            <li><a href="aula06.html">Aula 6</a>
-            <li><a href="aula07.html">Aula 7</a>
-            <li><a href="aula08.html">Aula 8</a>
-            <li><a href="aula09.html">Aula 9</a>
-            <li><a href="aula10.html">Aula 10</a>
-            <li><a href="aula11.html">Aula 11</a>
-            <li><a href="aula12.html">Aula 12</a>
-        </ul>
-        <!--Menu fixo das aulas-->
+        <div id="interface">
+            <!--Menu fixo das aulas-->
+            <ul id=menu>
+                <p id="menu_aulas">Menu de Aulas</p>
+                <li><a href="home.html">Home</a>
+                <li><a href="aula05.html">Aula 5</a>
+                <li><a href="aula06.html">Aula 6</a>
+                <li><a href="aula07.html">Aula 7</a>
+                <li><a href="aula08.html">Aula 8</a>
+                <li><a href="aula09.html">Aula 9</a>
+                <li><a href="aula10.html">Aula 10</a>
+                <li><a href="aula11.html">Aula 11</a>
+                <li><a href="aula12.html">Aula 12</a>
+            </ul>
+            <!--Menu fixo das aulas-->
+            
+                <h1>Hyperlink / Âncoras</h1>
 
-    <h1>Hyperlink / Âncoras</h1>
-    <h2>Usamos a tag A para criar um Hyperlink <br>
-        Principal atributo é o HREF - cria uma referência hipertexto</h2>
-    <h3>Vamos criar um link aqui:</h3>
-    <p>
-        <a href="https://www.twitch.tv/ruan_m">Me segue na Twitch!</a>
-    </p>
-    <h3>Usamos a tag HREFLANG para indicar idoma do site linkado</h3>
-    <p>
-        <a href="https://www.nytimes.com/" hreflang="en"> NY Times - Site em Inglês</a>
-    </p>
-
-    <h2>Links de Direcionamento Externo</h2>
-    <h3>Dentro da Tag A podemos usar o parâmetro TARGET <br>
-        Valores para target:
-        <ul>
-            <li>_blank - abre link em nova janela em branco</li>
-            <li>_self - abre link na janela atual (padrão)</li>
-            <li>_top - desfaz todos os frames e abre o link no navegador completo</li>
-            <li>_parent - siilar ao uso do _top em uma referência a janela mãe</li>
-            <li>nome-do-frame - caso esteja usando frames</li>        
-        </ul>
-    </h3>
-    <p>
-        <a href="aula10_pagina2.html" target="_self" hreflang="pt-br">Pagina 2 da aula 10</a>
-        Continua navegando no site.
-        <br>
-        <a href="https://www.google.com/?gws_rd=ssl" target="_blank">Site do Google</a>
-        Abre link em uma nova janela 
-    </p>
-
-    <h2>Destino do Link</h2>
-    <h3>Usamos o Parâmetro REL para indicar a natureza do destino do link <br>
-        Valores para rel:
-        <ul>
-            <li>next - indica que o link é para a proxima parte do doc</li>
-            <li>prev - indica que o link é para a parte anterior do doc</li>
-            <li>author - indica que é um link para o site do autor do artigo</li>
-            <li>external - indica que é um link externo ao seu site</li>
-            <li>nofollow - indica que é um link para um site não endossado, como link pago</li>
-        </ul>
-    </h3>
-    <p>
-        <a href="aula10_pagina2.html" target="_self" rel="next">Link Local - prox. pagina </a>
-        <br>
-        <a href="https://www.google.com/?gws_rd=ssl" target="_blank" rel="external"> Site do Google - Externo</a>
-    </p>
-    <h2>Fazendo Downloads</h2>
-    <h3>Desntro da tag A, vamos usar o parâmetro DOWNLOAD para o nome do arquivo a ser baixado, <br>
-        e o parâmetr TYPE para indicar o tipo de arquivo a ser baixado</h3>
-    <h4>Alguns <em>Media Types</em> mais usados:
-    <div class="lista">
-        <ol type="1">
-            <em>
-                <li>application/zip</li>
-                <li>text/html</li>
-                <li>text/css</li>
-                <li>text/javascript</li>
-                <li>video/mp4</li>
-                <li>video/H264</li>
-                <li>video/JPEG</li>
-                <li>audio/aac</li>
-                <li>audio/mpeg</li>
-                <li>font/ttf</li>
-                <li>image/JPEG</li>
-                <li>image/PNG</li>
-            </em>
-        </ol>
-    </div>
-    </h4>
-    <p>
-        <a href="download/A Byte of Python (português).pdf" type="application/pdf" target="_bank" rel="external">Baixe aqui o livro A Byte of Python</a>
-    </p>
+                <h2>Usamos a tag A para criar um Hyperlink <br>
+            Principal atributo é o HREF - cria uma referência hipertexto</h2>
+                <h3>Vamos criar um link aqui:</h3>
+                <p>
+            <a href="https://www.twitch.tv/ruan_m">Me segue na Twitch!</a>
+                </p>
+                <h3>Usamos a tag HREFLANG para indicar idoma do site linkado</h3>
+                <p>
+            <a href="https://www.nytimes.com/" hreflang="en"> NY Times - Site em Inglês</a>
+                </p>
+            
+                <h2>Links de Direcionamento Externo</h2>
+                <h3>Dentro da Tag A podemos usar o parâmetro TARGET <br>
+            Valores para target:</h3>
+            <p>
+                <ul>
+                    <li>_blank - abre link em nova janela em branco</li>
+                    <li>_self - abre link na janela atual (padrão)</li>
+                    <li>_top - desfaz todos os frames e abre o link no navegador completo</li>
+                    <li>_parent - siilar ao uso do _top em uma referência a janela mãe</li>
+                    <li>nome-do-frame - caso esteja usando frames</li>
+                </ul>
+            </p>
+                <p>
+            <a href="aula10_pagina2.html" target="_self" hreflang="pt-br">Pagina 2 da aula 10</a>
+            Continua navegando no site.
+            <br>
+            <a href="https://www.google.com/?gws_rd=ssl" target="_blank">Site do Google</a>
+            Abre link em uma nova janela 
+                </p>
+            
+                <h2>Destino do Link</h2>
+                <h3>Usamos o Parâmetro REL para indicar a natureza do destino do link <br>
+            Valores para rel:</h3>
+            <p>     
+                <ul>
+                    <li>next - indica que o link é para a proxima parte do doc</li>
+                    <li>prev - indica que o link é para a parte anterior do doc</li>
+                    <li>author - indica que é um link para o site do autor do artigo</li>
+                    <li>external - indica que é um link externo ao seu site</li>
+                    <li>nofollow - indica que é um link para um site não endossado, como link pago</li>
+                </ul>
+            </p>
+                <p>
+            <a href="aula10_pagina2.html" target="_self" rel="next">Link Local - prox. pagina </a>
+            <br>
+            <a href="https://www.google.com/?gws_rd=ssl" target="_blank" rel="external"> Site do Google - Externo</a>
+                </p>
+                <h2>Fazendo Downloads</h2>
+                <h3>Desntro da tag A, vamos usar o parâmetro DOWNLOAD para o nome do arquivo a ser baixado, <br>
+            e o parâmetr TYPE para indicar o tipo de arquivo a ser baixado</h3>
+                <h4>Alguns <em>Media Types</em> mais usados:
+                <div class="lista">
+            <ol type="1">
+                <em>
+                    <li>application/zip</li>
+                    <li>text/html</li>
+                    <li>text/css</li>
+                    <li>text/javascript</li>
+                    <li>video/mp4</li>
+                    <li>video/H264</li>
+                    <li>video/JPEG</li>
+                    <li>audio/aac</li>
+                    <li>audio/mpeg</li>
+                    <li>font/ttf</li>
+                    <li>image/JPEG</li>
+                    <li>image/PNG</li>
+                </em>
+            </ol>
+                </div>
+                </h4>
+                <p>
+            <a href="download/A Byte of Python (português).pdf" type="application/pdf" target="_bank" rel="external">Baixe aqui o livro A Byte of Python</a>
+                </p>
+        </div>
 </body>
 </html>

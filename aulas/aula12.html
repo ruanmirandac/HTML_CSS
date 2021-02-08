@@ -15,57 +15,55 @@
     </style>
 </head>
 <body>
-        <!--Menu fixo das aulas-->
-        <ul id=menu>
-            <p id="menu_aulas">Menu de Aulas</p>
-            <li><a href="home.html">Home</a>
-            <li><a href="aula05.html">Aula 5</a>
-            <li><a href="aula06.html">Aula 6</a>
-            <li><a href="aula07.html">Aula 7</a>
-            <li><a href="aula08.html">Aula 8</a>
-            <li><a href="aula09.html">Aula 9</a>
-            <li><a href="aula10.html">Aula 10</a>
-            <li><a href="aula11.html">Aula 11</a>
-            <li><a href="aula12.html">Aula 12</a>
-            <li><a href="aula13.html">Aula 13</a>
-        </ul>
-        <!--Menu fixo das aulas-->
-        <h1>Trabalhando com Estilos - Introdução às CSS</h1>
-
-        <h2>CSS inline style</h2>
-
-        <h3>Técnica mais básica de aplicar estilos, usamos dentro de parâmetros de HTML5. <br>
-        Usamos o parâmetro STYLE para aplicar um estilo.
-        </h3>
-        <p style="font-family: Arial, Helvetica, sans-serif; color: hotpink;">Esse é um teste usando CSS Inline Style</p>
-        <h4 style="font-family: monospace; font-size: x-large; color: indianred;">Esse título também contém estilo inline</h4>
-        <h4>Esse título não contém nenhum estilo; <br>
-        Usar <ins>inline</ins> funciona apenas para a Tag onde foi adicionado!</h4>
-        <!---------------------------------------------------------------------->
-        <h2>CSS internal style</h2>
-
-        <h3>Adiciona estilos de forma mais dinâmica e prática, podemos adicionar uma Tag STYLE dentro do HEAD do nosso documento local.</h3>
-        <h5>Esse título h5 foi alterado pelo inernal style! <br>
-        <ins>Vericar no HEAD caso tenha dúsivas!</ins></h5>
-
-        <p style="color: rgb(255, 149, 149);">As configurações pontuais (inline style) vão prevalecer sobre as config. gerais (internal style).</p>
-        <!---------------------------------------------------------------------->
-        <h2>CSS external style</h2>
-        <h3>Usar estilos externos mantém o arquivo mais organizado e reaproveitamos os estilos em outras paginas de nosso site de forma mais eficientes.<br> Usamos a Tag LINK especialmente configurada para trabalhar com arquivos externos de estilo. Essa Tag deve ser colocada dentro da área HEAD do HTML.</h3>
-        <h4>Dentro da área do HEAD usamos link:css para linkar ao arquivo externo da CSS. <br>
-        Ao criar o link:css, em href podemos criar o arquivo com a ajuda do VS Code usando Ctrl+clique. <br>
-        @charset "UTF-8"; - Regra charset caso haja problemas com acentuação. <br>
-        /* */- comentário em CSS</h4>
-        <p style="font-size: 20px;">Recomendações:
-            <ul>
-                <li>CSS Externo - use sempre que puder</li>
-                <li>CSS Interno - use para pequenas configurações</li>
-                <li>CSS inline - procure evitar</li>
+        <div id="interface">
+            <!--Menu fixo das aulas-->
+            <ul id=menu>
+                <p id="menu_aulas">Menu de Aulas</p>
+                <li><a href="home.html">Home</a>
+                <li><a href="aula05.html">Aula 5</a>
+                <li><a href="aula06.html">Aula 6</a>
+                <li><a href="aula07.html">Aula 7</a>
+                <li><a href="aula08.html">Aula 8</a>
+                <li><a href="aula09.html">Aula 9</a>
+                <li><a href="aula10.html">Aula 10</a>
+                <li><a href="aula11.html">Aula 11</a>
+                <li><a href="aula12.html">Aula 12</a>
+                <li><a href="aula13.html">Aula 13</a>
             </ul>
-            <pre style="color: aqua;">
-                É possível misturar as 3 técnicas, criando um CSS externo para as configurações globais,
-                CSS interno para configurações locais de um documento e CSS inline para pequenas configurações pontuais. 
-            </pre>
-        </p>
+            <!--Menu fixo das aulas-->
+            <h1>Trabalhando com Estilos - Introdução às CSS</h1>
+            <h2>CSS inline style</h2>
+            <p>Técnica mais básica de aplicar estilos, usamos dentro de parâmetros de HTML5. <br>
+            Usamos o parâmetro STYLE para aplicar um estilo.
+            </p>
+            <p style="font-family: Arial, Helvetica, sans-serif; color: hotpink;">Esse é um teste usando CSS Inline Style</p>
+            <h4 style="font-family: monospace; font-size: x-large; color: indianred;">Esse título também contém estilo inline</h4>
+            <h4>Esse título não contém nenhum estilo; <br>
+            Usar <ins>inline</ins> funciona apenas para a Tag onde foi adicionado!</h4>
+            <!---------------------------------------------------------------------->
+            <h2>CSS internal style</h2>
+            <p>Adiciona estilos de forma mais dinâmica e prática, podemos adicionar uma Tag STYLE dentro do HEAD do nosso documento local.</p>
+            <h5>Esse título h5 foi alterado pelo inernal style! <br>
+            <ins>Vericar no HEAD caso tenha dúsivas!</ins></h5>
+            <p style="color: rgb(255, 149, 149);">As configurações pontuais (inline style) vão prevalecer sobre as config. gerais (internal style).</p>
+            <!---------------------------------------------------------------------->
+            <h2>CSS external style</h2>
+            <p>Usar estilos externos mantém o arquivo mais organizado e reaproveitamos os estilos em outras paginas de nosso site de forma mais eficientes.<br> Usamos a Tag LINK especialmente configurada para trabalhar com arquivos externos de estilo. Essa Tag deve ser colocada dentro da área HEAD do HTML.</p>
+            <h4>Dentro da área do HEAD usamos link:css para linkar ao arquivo externo da CSS. <br>
+            Ao criar o link:css, em href podemos criar o arquivo com a ajuda do VS Code usando Ctrl+clique. <br>
+            @charset "UTF-8"; - Regra charset caso haja problemas com acentuação. <br>
+            /* */- comentário em CSS</h4>
+            <p style="font-size: 20px;">Recomendações:
+                <ul>
+                    <li>CSS Externo - use sempre que puder</li>
+                    <li>CSS Interno - use para pequenas configurações</li>
+                    <li>CSS inline - procure evitar</li>
+                </ul>
+                <pre style="color: aqua;">
+                    É possível misturar as 3 técnicas, criando um CSS externo para as configurações globais,
+                    CSS interno para configurações locais de um documento e CSS inline para pequenas configurações pontuais.
+                </pre>
+            </p>
+        </div>
 </body>
 </html>
