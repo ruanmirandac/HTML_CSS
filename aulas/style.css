@@ -4,7 +4,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #interface{
-    width: 1600px;
+    width: 1400px;
     padding: 20px; /* cima direita baixo esquerda */
     margin: -20px auto 0px auto; /* cima direita baixo esquerda */
     box-shadow: 0px 0px 10px rgb(10, 10, 10); /* direita baixo espalhamento */
@@ -19,6 +19,8 @@ h1{
 
 h2{
     color: rgb(96, 255, 144);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8em;
 }
 
 h3{
@@ -46,6 +48,9 @@ a{
     padding-bottom: 1.5em;
     background-color: rgb(22, 22, 22);
 }
+#menu p{
+    text-align: left;
+}
 
 #menu_aulas{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -55,10 +60,17 @@ a{
     color: rgb(98, 224, 255);
 }
 p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
     padding: 0px 0px 0px 5px;
+    text-align: justify;
+}
+ul{
+    font-size: 18px;
 }
 #grad{
     background-image: radial-gradient(rgb(32, 32, 32), rgb(44, 44, 44))
+}
+#anatomia{
+    width: 500px;
 }
